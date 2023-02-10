@@ -11,6 +11,7 @@ type
     Label1: TLabel;
 
     Button1: TButton;
+    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
 
   private
@@ -29,7 +30,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  ShowMessage('Bem vindo Mundo!')
+  ShowMessage('Bem vindo Mundo! VOLTE SEMPRE ADN')
 end;
 
 

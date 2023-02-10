@@ -14,15 +14,25 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 168
-    Top = 64
     Left = 104
     Top = 24
     Width = 89
     Height = 13
     Caption = 'BEM VINDO A ADN'
   end
-
+  object Label2: TLabel
+    Left = 232
+    Top = 80
+    Width = 150
+    Height = 24
+    Caption = 'TESTE PRINCIPAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Terminal'
+    Font.Style = []
+    ParentFont = False
+  end
   object Button1: TButton
     Left = 168
     Top = 144
@@ -32,5 +42,4 @@ object Form1: TForm1
     TabOrder = 0
     OnClick = Button1Click
   end
-
 end
