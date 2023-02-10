@@ -12,7 +12,9 @@ type
 
     Button1: TButton;
     Label2: TLabel;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
 
   private
     { Private declarations }
@@ -33,5 +35,10 @@ begin
   ShowMessage('Bem vindo Mundo! VOLTE SEMPRE ADN')
 end;
 
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  label2.Caption := 'TESTE UNITARIO';
+end;
 
 end.
